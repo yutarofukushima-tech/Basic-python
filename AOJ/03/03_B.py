@@ -5,4 +5,4 @@ while True:
         break
     else:
         print('Case {}: {}'.format(t,x))
-        t=t+1
+        t=t+1 

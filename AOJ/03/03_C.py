@@ -7,4 +7,4 @@ while True:
         if a>b:
             a,b = b,a
         print(a, b)
-        t=t+1
+        t=t+1 

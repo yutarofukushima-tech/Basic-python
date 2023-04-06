@@ -3,11 +3,9 @@ N= int(input())
 for loop in range(N):
     house,floor,room,add=map(int,input().split())
     tab[house-1][floor-1][room-1]+=add
-x=0
 for i in range(4):
-    if x !=0:
+    if i !=0:
         print('#'*20)
-    x+=1
     for a in range(3):
         for b in range(10):
             print(' %d'%(tab[i][a][b]),end='')
